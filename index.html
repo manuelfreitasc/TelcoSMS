@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <div class="relative h-screen w-full bg-gray-100">
+      <div class="m-auto lg:container md:shadow-2xl">
+        <div class="flex w-full items-end justify-end gap-3 py-2">
+          <a class="icon-color" href="#">
+            <i class="bi-facebook transition-all hover:text-cyan-500"></i>
+          </a>
+          <a class="icon-color" href="#">
+            <i class="bi-twitter transition-all hover:text-cyan-500"></i>
+          </a>
+          <a
+            class="icon-color transition-all hover:text-cyan-500"
+            href="https://www.linkedin.com/company/telcosms"
+          >
+            <i class="bi-linkedin"></i>
+          </a>
+          <a class="icon-color transition-all hover:text-cyan-500" href="#">
+            <i class="bi-instagram"></i>
+          </a>
+        </div>
+        <div
+          class="sticky top-0 z-[2000] flex w-full items-center justify-between border-b bg-white px-4 py-4 md:w-full"
+        >
+          <div>
+            <a href="index.html">
+            <img
+              src="https://telcosms.co.ao/assets/logotipo_da_telcosms_460X329-150cb54a0b56399f146a8224b1c6902848732d3e2c3c6283c0faf136c86f6b86.png"
+              alt=""
+              class="h-12 md:h-20"
+            />
+        </a>
+          </div>
+          <div class="mt-3 flex items-center gap-2 md:hidden">
+            <a
+              href=""
+              class="flex items-center justify-center rounded border-2 border-cyan-500 p-1 text-cyan-500 transition-all duration-300 ease-in hover:bg-cyan-500 hover:text-white"
+            >
+              <svg
+                width="24px"
+                height="22px"
+                viewBox="0 0 24 24"
+                fill="red"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_429_11066)">
+                  <path
+                    d="M3 6.00092H21M3 12.0009H21M3 18.0009H21"
+                    stroke="#292929"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_429_11066">
+                    <rect
+                      width="24"
+                      height="24"
+                      fill="white"
+                      transform="translate(0 0.000915527)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </div>
+          <div class="mt-3 hidden items-center gap-5 md:flex">
+            <a
+              href="#one"
+              class="text-lg transition-colors duration-100 ease-linear hover:text-cyan-500"
+              >Início</a
+            >
+            <a
+              href="#two"
+              class="text-lg transition-colors duration-100 ease-linear hover:text-cyan-500"
+              >Pacotes</a
+            >
+            <a
+              href="#three"
+              class="text-lg transition-colors duration-100 ease-linear hover:text-cyan-500"
+              >Serviços</a
+            >
+          </div>
+          <div class="mt-3 hidden items-center gap-2 md:flex">
+            <a
+              href="sign-in.html"
+              class="flex items-center justify-center rounded border-2 border-cyan-500 px-4 py-2 text-lg text-cyan-500 transition-all duration-300 ease-in hover:bg-cyan-500 hover:text-white"
+              >Entrar</a
+            >
+            <a
+              href="sign-up.html"
+              class="flex items-center justify-center rounded border-2 border-cyan-500 bg-cyan-500 px-4 py-2 text-lg text-white transition-all duration-300 ease-in hover:text-white hover:brightness-110"
+              >Registar Grátis</a
+            >
+          </div>
+        </div>
+        <div class="h-8 bg-white"></div>
+        <section id="one">
+          <div
+            class="flex w-full flex-col justify-center bg-[#121c2d] bg-[url(https://www.twilio.com/content/dam/twilio-com/global/en/homepage/homepage-new/hero-background.png/jcr:content/renditions/compressed-1600.webp)] bg-cover bg-center bg-no-repeat py-7 md:flex-row md:justify-between md:px-5"
+          >
+            <div
+              class="flex flex-col items-center justify-center gap-7 p-5 md:items-start md:justify-start"
+            >
+              <h1
+                class="text-center text-5xl font-bold tracking-wide text-white md:text-start"
+              >
+                12 bilhões de mensagens
+                <p class="text-cyan-500">enviado durante</p>
+                o ano 2023
+              </h1>
+              <p class="text-xl font-medium text-white">
+                Nunca foi mais fácil contactar os seus clientes, experimente já
+                a utilização da TelcoSMS através da aplicação web
+                disponibilizada neste portal, basta que para tal faças um
+                registo. É grátis!
+              </p>
+              <a
+                href=""
+                class="mt-7 flex w-2/4 items-center justify-center rounded border-2 border-cyan-500 bg-cyan-500 px-4 py-3 text-2xl text-white transition-all duration-300 ease-in hover:text-white hover:brightness-110 md:w-56"
+                >Registar Grátis</a
+              >
+            </div>
+            <div>
+              <img
+                src="https://www.twilio.com/content/dam/twilio-com/global/en/homepage/CDP%20Hero%20Image.png/_jcr_content/renditions/compressed-original.webp"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div
+            class="relative isolate h-fit w-full bg-[#121c2d] p-0 py-10 after:absolute after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:h-[25%] after:rounded-tl-3xl after:rounded-tr-3xl after:border-b after:bg-white md:after:h-[40%]"
+          >
+            <div
+              class="grid gap-4 border-t border-gray-800 px-4 pt-1 md:grid-cols-2 md:px-8 lg:grid-cols-4"
+            >
+              <div
+              
+                class="flex items-center justify-between rounded bg-white p-5 text-lg font-medium"
+              >
+                Bulk SMS
+                <a
+                 href="#three"
+                  class="flex items-center justify-between rounded-full bg-cyan-500 p-3 text-lg font-bold"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-7 stroke-white"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M6 12H18M18 12L13 7M18 12L13 17"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="fill-white text-white"
+                    />
+                  </svg>
+                </a>
+              </div>
+
+              <div
+               
+                class="flex items-center justify-between rounded bg-white p-5 text-lg font-medium shadow-xl"
+              >
+                E2S
+                <a
+                 href="#three"
+                  class="flex items-center justify-between rounded-full bg-cyan-500 p-3 text-lg font-bold"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-7 stroke-white"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M6 12H18M18 12L13 7M18 12L13 17"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="fill-white text-white"
+                    />
+                  </svg>
+                </a>
+              </div>
+
+              <div
+               
+                class="flex items-center justify-between rounded bg-white p-5 text-lg font-medium shadow-xl"
+              >
+                SMS Corporativa
+                <a
+                 href="#three"
+                  class="flex items-center justify-between rounded-full bg-cyan-500 p-3 text-lg font-bold"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-7 stroke-white"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M6 12H18M18 12L13 7M18 12L13 17"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="fill-white text-white"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div
+               
+                class="flex items-center justify-between rounded bg-white p-5 text-lg font-medium shadow-xl"
+              >
+                Suporte 24x7
+                <a
+                 href="#three"
+                  class="flex items-center justify-between rounded-full bg-cyan-500 p-3 text-lg font-bold"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-7 stroke-white"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      d="M6 12H18M18 12L13 7M18 12L13 17"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="fill-white text-white"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="two" class="w-full space-y-10 bg-white px-5 py-14">
+          <div class="flex flex-col items-center justify-center gap-5">
+            <h1
+              class="text-center text-5xl font-bold tracking-wide text-[#121c2d]"
+            >
+              Pacotes de SMS
+            </h1>
+            <p class="text-xl font-medium text-black">
+              Nunca foi fácil interagir com os seus parceiros de negócios.
+            </p>
+          </div>
+          <div
+            class="space-y-8 p-5 sm:gap-6 md:grid md:grid-cols-2 md:space-y-0 lg:grid lg:grid-cols-3 lg:space-y-0 xl:gap-10"
+          >
+            <div
+              class="mx-auto flex flex-col rounded-lg border border-gray-100 bg-[#121c2d] p-6 text-center text-gray-900 shadow xl:p-8 dark:border-gray-600 dark:text-white"
+            >
+              <h3 class="mb-4 text-2xl font-semibold">Comunica +</h3>
+              <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                Melhor opção para uso pessoal e para seu próximo projeto.
+              </p>
+              <div class="my-8 flex items-baseline justify-center">
+                <span class="mr-2 text-2xl font-extrabold">6,99 AOA</span>
+                <span class="text-gray-500 dark:text-gray-400">/SMS</span>
+              </div>
+              <!-- List -->
+              <ul role="list" class="mb-8 space-y-4 text-left">
+                <li class="flex items-center space-x-3">
+                  <!-- Icon -->
+                  <svg
+                    class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>De 1000001 à 6000000 SMS</span>
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="focus:ring-primary-200 dark:focus:ring-primary-900 rounded-lg bg-cyan-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-600 focus:ring-4 dark:text-white"
+                >Começar</a
+              >
+            </div>
+            <div
+              class="mx-auto flex flex-col rounded-lg border border-gray-100 bg-[#121c2d] p-6 text-center text-gray-900 shadow xl:p-8 dark:border-gray-600 dark:text-white"
+            >
+              <h3 class="mb-4 text-2xl font-semibold">Comunica</h3>
+              <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                Melhor opção para uso pessoal e para seu próximo projeto.
+              </p>
+              <div class="my-8 flex items-baseline justify-center">
+                <span class="mr-2 text-2xl font-extrabold">8,00 AOA</span>
+                <span class="text-gray-500 dark:text-gray-400">/SMS</span>
+              </div>
+              <!-- List -->
+              <ul role="list" class="mb-8 space-y-4 text-left">
+                <li class="flex items-center space-x-3">
+                  <!-- Icon -->
+                  <svg
+                    class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>De 150001 à 1000000 SMS</span>
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="focus:ring-primary-200 dark:focus:ring-primary-900 rounded-lg bg-cyan-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-600 focus:ring-4 dark:text-white"
+                >Começar</a
+              >
+            </div>
+
+            <div
+              class="mx-auto flex flex-col rounded-lg border border-gray-100 bg-[#121c2d] p-6 text-center text-gray-900 shadow xl:p-8 dark:border-gray-600 dark:text-white"
+            >
+              <h3 class="mb-4 text-2xl font-semibold">Manda +</h3>
+              <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                Melhor opção para uso pessoal e para seu próximo projeto.
+              </p>
+              <div class="my-8 flex items-baseline justify-center">
+                <span class="mr-2 text-2xl font-extrabold">9,25 AOA</span>
+                <span class="text-gray-500 dark:text-gray-400">/SMS</span>
+              </div>
+              <!-- List -->
+              <ul role="list" class="mb-8 space-y-4 text-left">
+                <li class="flex items-center space-x-3">
+                  <!-- Icon -->
+                  <svg
+                    class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>De 50001 à 150000 SMS</span>
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="focus:ring-primary-200 dark:focus:ring-primary-900 rounded-lg bg-cyan-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-600 focus:ring-4 dark:text-white"
+                >Começar</a
+              >
+            </div>
+
+            <div
+              class="mx-auto flex flex-col rounded-lg border border-gray-100 bg-[#121c2d] p-6 text-center text-gray-900 shadow lg:col-start-1 xl:p-8 dark:border-gray-600 dark:text-white"
+            >
+              <h3 class="mb-4 text-2xl font-semibold">Manda</h3>
+              <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                Melhor opção para uso pessoal e para seu próximo projeto.
+              </p>
+              <div class="my-8 flex items-baseline justify-center">
+                <span class="mr-2 text-2xl font-extrabold">11,00 AOA</span>
+                <span class="text-gray-500 dark:text-gray-400">/SMS</span>
+              </div>
+              <!-- List -->
+              <ul role="list" class="mb-8 space-y-4 text-left">
+                <li class="flex items-center space-x-3">
+                  <!-- Icon -->
+                  <svg
+                    class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>De 1 à 50000 SMS</span>
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="focus:ring-primary-200 dark:focus:ring-primary-900 rounded-lg bg-cyan-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-600 focus:ring-4 dark:text-white"
+                >Começar</a
+              >
+            </div>
+
+            <div
+              class="mx-auto flex flex-col rounded-lg border border-gray-100 bg-[#121c2d] p-6 text-center text-gray-900 shadow lg:col-start-3 xl:p-8 dark:border-gray-600 dark:text-white"
+            >
+              <h3 class="mb-4 text-2xl font-semibold">Comunica ++</h3>
+              <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                Melhor opção para uso pessoal e para seu próximo projeto.
+              </p>
+              <div class="my-8 flex items-baseline justify-center">
+                <span class="mr-2 text-2xl font-extrabold">5,00 AOA</span>
+                <span class="text-gray-500 dark:text-gray-400">/SMS</span>
+              </div>
+              <!-- List -->
+              <ul role="list" class="mb-8 space-y-4 text-left">
+                <li class="flex items-center space-x-3">
+                  <!-- Icon -->
+                  <svg
+                    class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>De 6000001 à 7000000 SMS</span>
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="focus:ring-primary-200 dark:focus:ring-primary-900 rounded-lg bg-cyan-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-cyan-600 focus:ring-4 dark:text-white"
+                >Começar</a
+              >
+            </div>
+          </div>
+          <div class="mt-10 flex flex-col items-center justify-center gap-5">
+            <p class="max-w-2xl text-center text-xl font-medium text-black">
+              Utilize mensagens de texto para melhorar os seus processos
+              organizacionais. Com as tecnologias de mobilidade as
+              possibilidades vão para além do imaginável.
+            </p>
+          </div>
+        </section>
+
+        <section id="three" class="w-full space-y-10 px-5 py-14">
+          <div class="flex flex-col items-center justify-center gap-5">
+            <h1
+              class="text-center text-5xl font-bold tracking-wide text-[#121c2d]"
+            >
+              Serviços TelcoSMS
+            </h1>
+            <p class="max-w-3xl text-center text-xl font-medium text-black">
+              TelcoSMS, a forma mais fácil de comunicação com os seus clientes e
+              parceiros através de Mensagens de texto...
+            </p>
+          </div>
+          <div
+            class="space-y-8 p-5 sm:gap-6 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 lg:content-center lg:space-y-0 xl:gap-10"
+          >
+            <div
+              class="shadow-0 mx-auto flex max-w-lg flex-col rounded-lg border-gray-100 bg-white p-6 text-center text-gray-800 xl:p-8"
+            >
+              <img
+                alt="servico telcoSMS"
+                src="https://telcosms.co.ao/uploads/servico/imagem/1/thumb_megaphone.png"
+                width="120"
+                height="120"
+                class="self-center"
+              />
+              <div class="my-8 flex items-baseline justify-center">
+                <span class="mr-2 text-3xl font-extrabold">Bulk SMS</span>
+              </div>
+              <!-- List -->
+              <div role="list" class="mb-8 space-y-4 text-left">
+                <p class="flex items-center space-x-3">
+                  A nossa aplicação de envio de mensagens é de fácil acesso e de
+                  simples utilização. Pode comunicar os seus serviços de forma
+                  rápida e com muita eficiência pela edição do número ou o
+                  carregamento de uma lista de contactos e enviar a mensagem
+                  desejada para os seus clientes ou fornecedores.
+                </p>
+              </div>
+            </div>
+            <div
+              class="shadow-0 mx-auto flex max-w-lg flex-col rounded-lg border-gray-100 bg-white p-6 text-center text-gray-800 xl:p-8"
+            >
+              <img
+                alt="servico telcoSMS"
+                src="https://telcosms.co.ao/uploads/servico/imagem/3/thumb_envelope.png"
+                width="120"
+                height="120"
+                class="self-center"
+              />
+              <div class="my-8 flex items-baseline justify-center">
+                <span class="mr-2 text-3xl font-extrabold">E2S</span>
+              </div>
+              <!-- List -->
+              <div role="list" class="mb-8 space-y-4 text-left">
+                <p class="">
+                  O serviço <b> E2E (E-mail para SMS)</b> permite o envio de
+                  mensagem a partir da aplicação de correio eletrónico
+                  corporativo da sua empresa.
+                </p>
+              </div>
+            </div>
+            <div
+              class="shadow-0 mx-auto flex max-w-lg flex-col rounded-lg border-gray-100 bg-white p-6 text-center text-gray-800 xl:p-8"
+            >
+              <img
+                alt="servico telcoSMS"
+                src="https://telcosms.co.ao/uploads/servico/imagem/2/thumb_chat.png"
+                width="120"
+                height="120"
+                class="self-center"
+              />
+              <div class="my-8 flex items-baseline justify-center">
+                <span class="mr-2 text-3xl font-extrabold"
+                  >SMS Corporativa</span
+                >
+              </div>
+              <!-- List -->
+              <div role="list" class="mb-8 space-y-4 text-left">
+                <p class="">
+                  Usando a nossa API, o envio de mensagens a partir de
+                  <b> ERP, CRMs,</b> etc..., as empresas poderão de forma fácil
+                  e rápida integrar-se a nossa Gateway de mensagens. A ligação,
+                  permitirá que de forma automática os seus sistemas comuniquem
+                  de forma eficiente com os seus parceiros ou clientes. Está
+                  provado que o SMS ainda é o veículo de comunicação mais rápido
+                  e sem os limites da internet.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="shadow-0 col-start-2 mx-auto flex max-w-lg flex-col rounded-lg border-gray-100 bg-white p-6 text-center text-gray-800 xl:p-8"
+            >
+              <img
+                alt="servico telcoSMS"
+                src="	https://telcosms.co.ao/uploads/servico/imagem/4/thumb_headset.png"
+                width="120"
+                height="120"
+                class="self-center"
+              />
+              <div class="my-8 flex items-baseline justify-center">
+                <span class="mr-2 text-3xl font-extrabold">Suporte 24x7</span>
+              </div>
+              <!-- List -->
+              <div role="list" class="mb-8 space-y-4 text-left">
+                <p class="">
+                  Nossa equipa está disponível para suporte no endereço:<b>
+                    suporte@telcosms.co.ao</b
+                  >
+                  ou ligue para <b>+244 940 620 227 </b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="bg-[rgb(18,28,45)]">
+          <div
+            class="flex w-full flex-col justify-center gap-12 px-4 py-12 lg:flex-row lg:items-start"
+          >
+            <div
+              class="flex flex-col items-center justify-center gap-5 lg:min-w-[300px]"
+            >
+              <h1 class="text-white">Nossos Parceiros</h1>
+              <ul class="text-[#ffffffa6]">
+                <li>
+                  <a href="https://www.proxypay.co.ao/" class="transform-gpu"
+                    >ProxyPay</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.proxypay.co.ao/" class="transform-gpu"
+                    >Minimercado Abakaxi</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="w-p flex flex-col items-center justify-center gap-5 lg:min-w-[300px]"
+            >
+              <h1 class="text-white">Contactos</h1>
+              <ul class="text-[#ffffffa6]">
+                <li>+244 940 620 227</li>
+                <li>geral@telcosms.co.ao</li>
+              </ul>
+            </div>
+
+            <div
+              class="flex flex-col items-center justify-center gap-5 lg:min-w-[300px]"
+            >
+              <h1 class="text-start text-white">Serviços</h1>
+              <ul class="text-[#ffffffa6]">
+                <li>Bulk SMS</li>
+                <li>E2S</li>
+                <li>SMS Corporativa</li>
+                <li>Suporte 24x7</li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full py-5 text-white">
+            <div class="mb-6 flex w-full items-end justify-center gap-3 py-2">
+              <a class="icon-color" href="#">
+                <i class="bi-facebook transition-all hover:text-cyan-500"></i>
+              </a>
+              <a class="icon-color" href="#">
+                <i class="bi-twitter transition-all hover:text-cyan-500"></i>
+              </a>
+              <a
+                class="icon-color transition-all hover:text-cyan-500"
+                href="https://www.linkedin.com/company/telcosms"
+              >
+                <i class="bi-linkedin"></i>
+              </a>
+              <a class="icon-color transition-all hover:text-cyan-500" href="#">
+                <i class="bi-instagram"></i>
+              </a>
+            </div>
+            <div
+              class="flex w-full flex-col items-center justify-center gap-2 max-[500px]:text-xs"
+            >
+              <p class="text-direitos-reservados">
+                Mapa <span class="add-espaco">|</span> Termos &amp; Condições
+                <span class="add-espaco">|</span> Privacidade
+              </p>
+              <p class="text-rodape">
+                © 2024 - Todos os direitos reservados à TelcoSMS.
+              </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!-- <div class="flex flex-col absolute inset-0 z-50 bg-white md:hidden">
+  <div class="flex items-center justify-between py-3  px-4">
+   <div>
+     <img src="https://telcosms.co.ao/assets/logotipo_da_telcosms_460X329-150cb54a0b56399f146a8224b1c6902848732d3e2c3c6283c0faf136c86f6b86.png" alt="" class="h-9">
+     </div>
+      <div class="md:hidden flex items-center gap-2 mt-3">
+      <a href="" class=" rounded-full  flex items-center justify-center">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#0F1729"/>
+</svg>
+      </a>
+   </div>
+  
+  
+</div>
+ <div class=" items-center gap-5  flex flex-col border-y border-slate-500/20 py-4">
+     <a href="" class="hover:text-cyan-500 transition-colors duration-100 ease-linear">Início</a>
+     <a href="" class="hover:text-cyan-500 transition-colors duration-100 ease-linear">Pacotes</a> 
+     <a href="" class="hover:text-cyan-500 transition-colors duration-100 ease-linear">Serviços</a> 
+   </div>
+ <div class="flex items-center gap-2 py-4 w-full  justify-center ">
+     <a href="" class="border-2 border-cyan-500 text-cyan-500 rounded hover:bg-cyan-500 hover:text-white transition-all duration-300 ease-in px-4 flex items-center justify-center">Entrar</a>
+     <a href="" class="border-2 border-cyan-500 bg-cyan-500  text-white  rounded hover:brightness-110 hover:text-white transition-all duration-300 ease-in px-4 flex items-center justify-center">Registar Grátis</a>
+ </div>
+</div> -->
+    </div>
+  </body>
+</html>
