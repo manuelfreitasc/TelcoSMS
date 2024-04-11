@@ -545,8 +545,8 @@ video {
   --tw-contain-style:  
 }
 
-.absolute{
-  position: absolute
+.fixed{
+  position: fixed
 }
 
 .relative{
@@ -569,12 +569,12 @@ video {
   isolation: isolate
 }
 
-.z-50{
-  z-index: 50
-}
-
 .z-\[2000\]{
   z-index: 2000
+}
+
+.z-\[30000\]{
+  z-index: 30000
 }
 
 .col-start-2{
@@ -657,10 +657,6 @@ video {
 
 .h-screen{
   height: 100vh
-}
-
-.w-2\/4{
-  width: 50%
 }
 
 .w-5{
