@@ -1,8 +1,12 @@
-function open() {
-    alert("neloo")
-    //document.getElementById("menu").classList.remove("hidden");
-  }
-
-  function close() {
-    document.getElementById("menu").classList.toggle ("hidden");
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
   }
